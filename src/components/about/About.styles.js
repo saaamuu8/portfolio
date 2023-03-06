@@ -38,7 +38,7 @@ const AboutLeft = styled.div`
     
     h2 {
         font-size: 30px;
-        font-weight: 400;
+        font-weight: 300;
         color: #000;
         letter-spacing: 0.3px;
 
@@ -47,7 +47,7 @@ const AboutLeft = styled.div`
 
     p {
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 500;
         color: #000;
 
         text-align: justify;
