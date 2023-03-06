@@ -2,13 +2,19 @@ import styled from "styled-components";
 
 const AboutContainer = styled.div`
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 40px;
 
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+
+    @media screen and (max-width: 1200px) 
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
 `;
 
 const AboutLeft = styled.div`
