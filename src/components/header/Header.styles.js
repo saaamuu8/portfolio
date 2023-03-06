@@ -11,6 +11,16 @@ const HeaderContainer = styled.div`
     align-items: center;
 `;
 
+const HeaderText = styled.div`
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`;
+
 const HeaderTitle = styled.h1`
     font-size: 70px;
     font-weight: 800;
@@ -29,8 +39,11 @@ const HeaderSubTitle = styled.h2`
 const HeaderButtons = styled.div`
     width: 100%;
     height: fit-content;
-    padding: 20px 30px;
-    margin-top: 100px;
+    
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
 
     display: flex;
     align-items: center;
@@ -39,7 +52,7 @@ const HeaderButtons = styled.div`
     a {
         width: fit-content;
         height: fit-content;
-        padding: 10px 20px;
+        padding: 0 20px;
 
         font-size: 17px;
         font-weight: 600;
@@ -56,4 +69,4 @@ const HeaderButtons = styled.div`
     }
 `;
 
-export { HeaderContainer, HeaderTitle, HeaderSubTitle, HeaderButtons };
+export { HeaderContainer, HeaderText, HeaderTitle, HeaderSubTitle, HeaderButtons };

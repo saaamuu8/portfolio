@@ -3,7 +3,7 @@ import styled from "styled-components";
 const NavbarContainer = styled.div`
     width: 100%;
     height: fit-content;
-    padding: 30px;
+    padding: 30px 30px 0 30px;
 
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@ const NavbarLogo = styled.div`
 
 const NavbarHamburguer = styled.div`
     position: absolute;
-    right: 45px;
+    right: 30px;
     top: 30px;
 
     display: block;
@@ -51,7 +51,7 @@ const NavbarUl = styled.ul`
 
     position: absolute;
     right: 0;
-    top: 0px;
+    top: 0;
 
     border-radius: 0 0 0 20px;
     background-color: #fff;

@@ -1,17 +1,19 @@
 // STYLED
-import { HeaderContainer, HeaderTitle, HeaderSubTitle, HeaderButtons } from './Header.styles';
+import { HeaderContainer, HeaderText, HeaderTitle, HeaderSubTitle, HeaderButtons } from './Header.styles';
 // ROUTER
 import { Link } from 'react-router-dom';
 
 const Header = () => {
     return(
         <HeaderContainer>
-            <HeaderTitle>
-                Samuel Vitales
-            </HeaderTitle>
-            <HeaderSubTitle>
-                Full Stack Developer
-            </HeaderSubTitle>
+            <HeaderText>
+                <HeaderTitle>
+                    Samuel Vitales
+                </HeaderTitle>
+                <HeaderSubTitle>
+                    Web Developer
+                </HeaderSubTitle>
+            </HeaderText>
             <HeaderButtons>
                 <Link to="/contact"> Contact </Link>
                 <p> / </p>
