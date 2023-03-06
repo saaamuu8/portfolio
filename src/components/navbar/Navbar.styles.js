@@ -3,7 +3,7 @@ import styled from "styled-components";
 const NavbarContainer = styled.div`
     width: 100%;
     height: fit-content;
-    padding: 30px 30px 0 30px;
+    padding: 30px 0 30px 30px;
 
     display: flex;
     align-items: center;
@@ -62,6 +62,7 @@ const NavbarUl = styled.ul`
     align-items: flex-end;
 
     transform: ${props => props.open ? "translateX(0px)" : "translateX(300px)"};
+    opacity: ${props => props.open ? "1" : "0"};
     transition: all .5s ease-in-out;
 
     a {
